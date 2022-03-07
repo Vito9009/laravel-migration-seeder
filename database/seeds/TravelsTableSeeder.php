@@ -27,7 +27,6 @@ class TravelsTableSeeder extends Seeder
             $infoTravel->giorno_partenza_ritorno = $faker->dateTime();
             $infoTravel->orario_partenza_ritorno = $faker->time();
             $infoTravel->prezzo = $faker->numberBetween(100, 1000);
-            $infoTravel->save();
         }
     }
 }
